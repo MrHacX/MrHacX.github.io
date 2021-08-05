@@ -108,7 +108,7 @@
 
     <div align="center">
         <script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
-        <video id="video-id"><source src="https://cdn.fluidplayer.com/videos/valerian-480p.mkv" type="video/mp4" />
+        <video id="video-id"><source src="video.mp4" type="video/mp4" />
         <script>
             var myFP = fluidPlayer(
                 'video-id',	{
@@ -123,13 +123,13 @@
                     "height": null,
                     "width": null
                 },
-                "autoPlay": true,
+                "autoPlay": false,
                 "mute": true,
                 "allowTheatre": true,
-                "playPauseAnimation": false,
-                "playbackRateEnabled": false,
+                "playPauseAnimation": true,
+                "playbackRateEnabled": true,
                 "allowDownload": false,
-                "playButtonShowing": false,
+                "playButtonShowing": true,
                 "fillToContainer": false,
                 "posterImage": ""
             },
@@ -144,7 +144,7 @@
                 "adCTAText": false,
                 "adCTATextPosition": ""
             }
-        }
+        })
         </script>
     </div>
     
